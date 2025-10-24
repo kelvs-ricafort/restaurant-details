@@ -1,5 +1,5 @@
 //
-//  RestaurantDetailsApp.swift
+//  AppEntry.swift
 //  RestaurantDetails
 //
 //  Created by Kelvin Ricafort on 10/24/25.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct RestaurantDetailsApp: App {
+struct AppEntry: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
