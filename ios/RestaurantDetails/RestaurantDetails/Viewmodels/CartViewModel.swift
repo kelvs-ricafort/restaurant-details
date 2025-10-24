@@ -16,7 +16,7 @@ class CartViewModel {
         items.count
     }
     
-    func addIten(_ item: MenuItem) {
+    func addItem(_ item: MenuItem) {
         items.append(item)
     }
 }
