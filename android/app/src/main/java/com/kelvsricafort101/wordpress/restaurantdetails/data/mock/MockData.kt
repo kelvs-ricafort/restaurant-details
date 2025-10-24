@@ -67,4 +67,5 @@ object MockData {
             )
         )
     )
+    val sampleRestaurant = sampleRestaurants.first()
 }
