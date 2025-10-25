@@ -11,7 +11,7 @@ It's in the iOS Folder
 <b>Task Summary</b>
 
 Create a restaurant details screen with menu items
-Implement a cart feature for adding items
+Implement a cart feature for adding items.
 Focus on architecture and component design
 Use mock data (no API integration required)
 Steps to Complete
