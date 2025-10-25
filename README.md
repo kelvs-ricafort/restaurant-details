@@ -1,3 +1,3 @@
 # restaurant-details
 
-# includes the android and iOS version of restaurant-details app
+includes the Android and iOS versions of the restaurant-details app
