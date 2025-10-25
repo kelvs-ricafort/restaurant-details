@@ -54,7 +54,7 @@ fun CartScreen(
             LazyColumn(modifier = Modifier.weight(1f)) {
                 items(items) {
                     Text(
-                        text = "${it.name} - PHP ${it.price}",
+                        text = "${it.name} - ${formatPrice(it.price)}",
                         modifier = Modifier.padding(8.dp)
                     )
                 }

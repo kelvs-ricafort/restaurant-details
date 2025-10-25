@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.kelvsricafort101.wordpress.restaurantdetails.R
 import com.kelvsricafort101.wordpress.restaurantdetails.data.models.MenuItem
 import com.kelvsricafort101.wordpress.restaurantdetails.ui.theme.RestaurantAppTheme
+import com.kelvsricafort101.wordpress.restaurantdetails.utils.formatPrice
 
 
 @Composable
@@ -44,7 +45,7 @@ fun MenuItemCard(
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(
-                    text = "PHP ${item.price}",
+                    text = formatPrice(item.price),
                     style = MaterialTheme.typography.bodyMedium
                 )
             }

@@ -17,7 +17,8 @@ import com.kelvsricafort101.wordpress.restaurantdetails.ui.theme.RestaurantAppTh
 @Composable
 fun RestaurantInfoCard(
     restaurant: Restaurant,
-    modifier: Modifier = Modifier) {
+    modifier: Modifier = Modifier
+) {
     Card(modifier = modifier
         .fillMaxWidth()
         .padding(16.dp)
