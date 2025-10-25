@@ -33,7 +33,7 @@ object MockData {
         Restaurant(
             name = "Taco Loco",
             cuisine = "Mexican",
-            type = "Fast Food",
+            type = "Fast Casual",
             rating = 4.3,
             menu = listOf(
                 MenuItem(name = "Beef Tacos (3pcs)", price = 220.0),
@@ -67,5 +67,6 @@ object MockData {
             )
         )
     )
+    // One restaurant for details screen + previews
     val sampleRestaurant = sampleRestaurants.first()
 }

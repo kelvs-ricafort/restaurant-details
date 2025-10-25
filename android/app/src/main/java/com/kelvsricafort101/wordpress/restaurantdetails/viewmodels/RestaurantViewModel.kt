@@ -6,7 +6,7 @@ import com.kelvsricafort101.wordpress.restaurantdetails.data.mock.MockData
 import com.kelvsricafort101.wordpress.restaurantdetails.data.models.MenuItem
 
 class RestaurantViewModel: ViewModel() {
-    val restaurant = mutableStateOf(MockData.sampleRestaurants)
+    val restaurant = mutableStateOf(MockData.sampleRestaurant)
     val cartItems = mutableStateOf<List<MenuItem>>(emptyList())
 
     fun addToCart(item: MenuItem) {
