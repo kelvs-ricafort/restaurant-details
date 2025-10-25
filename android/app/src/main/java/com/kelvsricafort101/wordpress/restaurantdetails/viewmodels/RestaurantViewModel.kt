@@ -9,6 +9,7 @@ class RestaurantViewModel: ViewModel() {
     val restaurant = mutableStateOf(MockData.sampleRestaurant)
     val cartItems = mutableStateOf<List<MenuItem>>(emptyList())
 
+
     fun addToCart(item: MenuItem) {
         cartItems.value = cartItems.value + item
     }
