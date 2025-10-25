@@ -21,8 +21,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.kelvsricafort101.wordpress.restaurantdetails.R
 import com.kelvsricafort101.wordpress.restaurantdetails.ui.theme.RestaurantAppTheme
+import com.kelvsricafort101.wordpress.restaurantdetails.utils.formatPrice
 import com.kelvsricafort101.wordpress.restaurantdetails.viewmodels.RestaurantViewModel
-import java.util.Locale
 
 @Composable
 fun CartScreen(
@@ -61,7 +61,7 @@ fun CartScreen(
             }
             HorizontalDivider()
             Text(
-                text = "Total: PHP ${String.format(Locale.US, "%.2f", total)}",
+                text = formatPrice(total),
                 modifier = Modifier.padding(16.dp),
                 style = MaterialTheme.typography.titleMedium
             )
